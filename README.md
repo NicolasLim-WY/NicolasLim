@@ -1,6 +1,3 @@
-# NicolasLim
-Service Delivery Manager &amp; BA | Specializing in ITSM Automation (n8n/Python) &amp; Data Analytics (Tableau/R) | Driving Business Value through AI.
-
 # Hi, I'm Nicolas Lim 👋 
 ### Service Delivery Manager | Business Analyst | AI & Automation Enthusiast
 
@@ -24,8 +21,8 @@ I am a transition-focused IT professional with over 14 years of experience bridg
 ---
 
 ## 📊 Featured Projects
-* **[Project Name 1]** - *Briefly describe an n8n or Python automation you've built.*
-* **[Project Name 2]** - *Link to a Tableau Dashboard analyzing ITSM metrics.*
+* **[Project Name 1]** - "AI Prompt Engineering Library - A collection of structured prompts for automating ITSM reporting (inspired by DataCamp ChatGPT track)."
+* **[Project Name 2]** - "Statistical Analysis in R - Exploratory data analysis of service desk ticket volumes using R data frames."
 
 ---
 
@@ -37,5 +34,5 @@ I am a transition-focused IT professional with over 14 years of experience bridg
 ---
 
 ## 📫 Connect with Me
-* **LinkedIn:** www.linkedin.com/in/nicolaslimwy
+* **LinkedIn:** [nicolaslimwy](https://www.linkedin.com/in/nicolaslimwy)
 * **Based in:** Kuala Lumpur, Malaysia 🇲🇾
