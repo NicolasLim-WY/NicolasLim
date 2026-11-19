@@ -1,4 +1,5 @@
 // Public career dashboard. Every line here is approved, anonymized resume wording.
+// Content follows the master CV. Update the master CV first, then this file.
 // No personal contact details, pay, client names or contract values.
 (function () {
   'use strict';
