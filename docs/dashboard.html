@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'; script-src 'self'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<title>Nicolas Lim Career Dashboard</title>
+<meta name="description" content="Career at a glance: 15 years in IT service delivery, incident management and Salesforce CRM business analysis.">
+<link rel="stylesheet" href="assets/site.css">
+<script src="assets/dashboard.js" defer></script>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topnav">
+      <span class="mono">Career dashboard · Kuala Lumpur, Malaysia</span>
+      <nav aria-label="Pages"><a href="index.html">Resume</a><a href="dashboard.html" aria-current="page">Career dashboard</a></nav>
+    </div>
+    <h1>Nicolas Lim</h1>
+    <span class="role">IT Service Delivery Manager · Business Analyst Lead</span>
+  </header>
+
+  <section aria-label="Headline numbers">
+    <div class="kpis">
+      <div class="kpi"><b>15</b><span>Years in enterprise IT</span></div>
+      <div class="kpi"><b>14</b><span>Direct reports on a 24/7 follow-the-sun model</span></div>
+      <div class="kpi"><b>3</b><span>P1 outages led as Major Incident Manager</span></div>
+      <div class="kpi"><b>14</b><span>APAC affiliates in a legacy CRM retirement</span></div>
+      <div class="kpi"><b>4</b><span>Years on Salesforce CRM</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Hiring for</h2>
+    <div class="seg" id="lanes" role="group" aria-label="Role you are hiring for">
+      <button type="button" id="lane-all" data-lane="all" aria-pressed="true">All roles</button>
+      <button type="button" id="lane-sdm" data-lane="sdm" aria-pressed="false">Service delivery</button>
+      <button type="button" id="lane-mim" data-lane="mim" aria-pressed="false">Incident and problem</button>
+      <button type="button" id="lane-ba" data-lane="ba" aria-pressed="false">Business analysis</button>
+    </div>
+    <div class="pitch">
+      <span class="mono" id="pitch-label">What I bring</span>
+      <blockquote id="pitch">IT delivery leader with 15 years across enterprise support, Salesforce CRM delivery and global database operations.</blockquote>
+    </div>
+  </section>
+
+  <section>
+    <h2>Career timeline</h2>
+    <p class="sub">From field service to global operations. Hover or tab to a bar for details.</p>
+    <div class="legend" id="legend"></div>
+    <div class="gantt" id="gantt"><p class="sub">Loading the timeline.</p></div>
+  </section>
+
+  <section>
+    <h2>Competency matrix</h2>
+    <p class="sub">Each row shows the evidence behind the skill. Pick a role above to bring its core skills to the top.</p>
+    <div class="tablebox"><table>
+      <thead><tr><th>Competency and evidence</th><th class="fit" data-col="sdm">Service delivery</th><th class="fit" data-col="mim">Incident and problem</th><th class="fit" data-col="ba">Business analysis</th></tr></thead>
+      <tbody id="matrix"></tbody>
+    </table></div>
+  </section>
+
+  <section>
+    <h2>Industries</h2>
+    <ul class="chips">
+      <li>Pharma and life sciences</li>
+      <li>Direct selling and FMCG</li>
+      <li>Property data and analytics, Australia</li>
+      <li>Enterprise software</li>
+      <li>Office technology</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Tools by depth</h2>
+    <div class="depth">
+      <div><h3>Used in delivery</h3><p>ServiceNow ITSM (operational use and reporting), JIRA, Confluence, Salesforce Sales Cloud, CPQ and Medical CRM, Oracle Enterprise Manager, SolarWinds, Excel and Google Sheets trackers, PowerPoint process slides.</p></div>
+      <div><h3>Coordinated, not built</h3><p>MuleSoft, TIBCO API gateway, Informatica PowerCenter, Salesforce Marketing Cloud, SSO. I ran the analysis and coordination. Developers built the integrations.</p></div>
+      <div><h3>Earlier career, 2016 to 2017</h3><p>Kofax Capture, Transformation Modules, Kapow (RPA) and TotalAgility. Product support and debugging on the vendor side.</p></div>
+      <div><h3>Learning now</h3><p>Six Anthropic Academy course completions in Nov 2026, from Claude 101 to Model Context Protocol. Verify links are on the resume.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Languages</h2>
+    <ul class="chips">
+      <li>English</li><li>Mandarin (read and write)</li><li>Cantonese</li><li>Malay</li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="contact">
+      <h3>Want the full story?</h3>
+      <div class="cta">
+        <a class="btn pri" href="index.html">Read the resume</a>
+        <a class="btn sec" href="https://www.linkedin.com/in/nicolaslimwy" target="_blank" rel="noopener noreferrer">Message me on LinkedIn</a>
+      </div>
+    </div>
+  </section>
+</div>
+<div class="tip" id="tip" hidden></div>
+</body>
+</html>
